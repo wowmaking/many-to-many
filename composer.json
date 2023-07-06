@@ -1,0 +1,50 @@
+{
+    "name": "martinjuul/many-to-many",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "martinjuul",
+        "martin-juul"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/martin-juul/many-to-many/issues"
+    },
+    "readme": "README.md",
+    "authors": [
+        {
+            "name": "Martin Juul",
+            "homepage": "https://juul.xyz"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "laravel/nova": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juul\\Fields\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Juul\\Fields\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ]
+}
